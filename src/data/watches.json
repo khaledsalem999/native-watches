@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Fossil Strap Blue",
+        "image": "https://fossil.scene7.com/is/image/FossilPartners/FS5814_main?$sfcc_fos_hi-res$",
+        "model_code": "FS5814",
+        "views": 45,
+        "delivery_time": 5,
+        "variants": [
+            {
+                "name": "Fossil Strap Brown",
+                "image": "https://fossil.scene7.com/is/image/FossilPartners/FS5608_main?$sfcc_fos_hi-res$",
+                "model_code": "FS5608",
+                "views": "78",
+                "delivery_time": 8
+            },
+            {
+                "name": "Fossil Strap Brown/Blue",
+                "image": "https://fossil.scene7.com/is/image/FossilPartners/FS5607_main?$sfcc_fos_large$",
+                "model_code": "FS5607",
+                "views": "104",
+                "delivery_time": 5
+            }
+        ]
+    },
+    {
+        "name": "Fossil Copeland Green",
+        "image": "https://fossil.scene7.com/is/image/FossilPartners/FS5737_main?$sfcc_fos_large$",
+        "model_code": "FS5737",
+        "views": 12,
+        "delivery_time": 2,
+        "variants": [
+            {
+                "name": "Fossil Copeland Blue",
+                "image": "https://fossil.scene7.com/is/image/FossilPartners/FS5661_main?$sfcc_fos_hi-res$",
+                "model_code": "FS5661",
+                "views": 89,
+                "delivery_time": 9
+            },
+            {
+                "name": "Fossil Copeland Brown",
+                "image": "https://fossil.scene7.com/is/image/FossilPartners/FS5663_main?$sfcc_fos_large$",
+                "model_code": "FS5663",
+                "views": "107",
+                "delivery_time": 2
+            },
+            {
+                "name": "Fossil Copeland Sky",
+                "image": "https://fossil.scene7.com/is/image/FossilPartners/FS5662_main?$sfcc_fos_large$",
+                "model_code": "FS5662",
+                "views": "45",
+                "delivery_time": 5
+            }
+        ]
+    }
+]
