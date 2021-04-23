@@ -48,14 +48,14 @@ const styles = StyleSheet.create(
        },
        pickerStyle:{
           backgroundColor: 'white',
-          width: 150,
+          width: 100,
           marginTop: -15,
           marginBottom: -30,
           marginLeft: -25
        },
        filterPickerStyle:{
           backgroundColor: 'white',
-          width: 80,
+          width: 65,
           marginTop: -15,
           marginBottom: -30,
           marginLeft: -10

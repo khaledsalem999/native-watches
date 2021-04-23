@@ -14,6 +14,7 @@ const WatchList = () => {
    const [filteringTerm, setSFilteringTerm] = useState("");
    let [watchesList] = useState([]);
 
+   // Rearranging watch objects with the variants in a complete list
    watchesList = []
    watchesData.map( watch => {
       watchesList.push(watch);
@@ -22,6 +23,7 @@ const WatchList = () => {
       })
    })
 
+   // Sorting Handling
    switch(sortingTerm){
       case "Demand(High)":
           watchesList.sort(function(a, b) {
@@ -45,6 +47,7 @@ const WatchList = () => {
          break;
    }
 
+   //Filter handling
    switch(filteringTerm){
       case "copeland":
          watchesList = watchesList.filter( watch => watch.name.toLowerCase().includes(filteringTerm.toLowerCase()));
@@ -54,6 +57,7 @@ const WatchList = () => {
          break;
    }
 
+   //Search Handling
    watchesList = watchesList.filter( watch => watch.name.toLowerCase().includes(term.toLowerCase()))
    return (
        <View style={{ backgroundColor: 'white', flex: 1 }}>
